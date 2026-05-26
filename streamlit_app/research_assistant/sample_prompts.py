@@ -30,7 +30,8 @@ SAMPLE_PROMPTS = {
             "Customer Data Exposure",
             "We want to use an AI assistant with customer support tickets and internal "
             "account notes. Evaluate privacy, data leakage, retention, access control, "
-            "auditability, and mitigations before a pilot."
+            "auditability, applicable standards such as HIPAA, SOC 2, and ISO 27001, "
+            "and mitigations before a pilot."
         ),
         (
             "Prompt Injection",
@@ -42,7 +43,15 @@ SAMPLE_PROMPTS = {
             "Production Controls",
             "We are preparing to run a multi-agent assistant in production for internal "
             "users. Evaluate security controls, model access, secret handling, logging, "
-            "rate limits, incident response, and governance ownership."
+            "rate limits, incident response, governance ownership, and likely control "
+            "expectations from NIST SP 800-171, FedRAMP, FISMA, SOC 2, and ISO 27001."
+        ),
+        (
+            "Regulated Workloads",
+            "Our public sector and healthcare teams want to use a retrieval-grounded AI "
+            "assistant for architecture and operations guidance. Assess NIST SP 800-171, "
+            "HIPAA, FedRAMP, FISMA, data residency, auditability, source citation, and "
+            "human approval needs before a pilot."
         ),
     ],
     "Technical Strategy": [

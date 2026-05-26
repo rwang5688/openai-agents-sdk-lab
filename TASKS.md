@@ -110,6 +110,8 @@
 ## 9. Follow-On Enhancements
 
 - [ ] Add an IT knowledge base for Enterprise AI Adoption, Security & Governance, and Technical Strategy policies/guidance.
+- [ ] Add web search grounding for current security and compliance standards such as NIST SP 800-171, HIPAA, FedRAMP, FISMA, SOC 2, and ISO 27001.
+- [ ] Consolidate knowledge-base and web-search findings with source references before specialist synthesis.
 - [ ] Add OpenAI tracing or richer structured logs.
 - [ ] Add one real tool for research or domain lookup.
 - [ ] Add structured outputs for reliable UI rendering.
